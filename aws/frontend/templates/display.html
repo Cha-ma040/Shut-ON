@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>防音性能評価</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="../static/display.css" type="text/css">
+        <!-- jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <!-- UIkit CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.8.0/dist/css/uikit.min.css" />        
+        <!-- UIkit JS -->
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.8.0/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.8.0/dist/js/uikit-icons.min.js"></script>
+        <script type=text/javascript src="{{ url_for('static', filename='../static/function.js') }}"></script>
+
+
+    </head>
+
+    <body>
+        <div id="title_wrapper">
+            <h4 id="title" class="uk-navbar-item">Shut-音</h4>
+        </div>
+        <div id="map_wrapper" class="uk-align-center">
+            <iframe id="map" class="uk-align-center" src="./map.html"></iframe>
+        </div>
+
+        <div id="overview" class="uk-container">
+            <ul uk-accordion="collapsible: false">
+                <div id="card" class="uk-card uk-card-default uk-card-hover uk-card-body">
+                    <h3 id="result_display" class="uk-card-title">ピンをタップしてください</h3>
+                    <p id="description">タップした場所の周辺を見ることが出来ます。</p>
+                    <button id="link_button" class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-bottom" onclick="transition()">周辺情報を見に行く</button>
+                </div>
+
+            </ul>
+        </div>
+        <script type=text/javascript src="{{ url_for('static', filename='../static/function.js') }}"></script>
+        <noscript>
+            <h1>
+                お使いのブラウザは旧時代に開発されたものかテキストベースのもの，
+                またはAdBlockやサイトの設定などによってJavascriptが無効にされているようです。
+                現代の一般的なブラウザを用いるかJavascriptの実行を許可してください。
+            </h1>
+        </noscript>
+    </body>
+</html>

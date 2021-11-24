@@ -1,0 +1,7 @@
+setuptools
+Flask
+flask-cors
+flask_limiter
+waitress
+folium
+GitPython

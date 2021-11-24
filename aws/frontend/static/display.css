@@ -1,0 +1,41 @@
+/* nav */
+#title {
+    background: #c6f4fb;
+    font-size: 40px;
+}
+
+/* title */
+#title_wrapper {
+    cursor: pointer;
+    cursor: hand;
+}
+
+/* マップ関連 */
+#map_wrapper {
+    position: relative;
+    width: 100vh;
+}
+
+#map_wrapper::before {
+    content: "";
+    display: block;
+    padding-top: 56.25%;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#overview {
+    padding-top: 50px;
+    min-height: 10px;
+}
+
+/* 確認バー関連 */
+#link_button {
+    display: none;
+}
