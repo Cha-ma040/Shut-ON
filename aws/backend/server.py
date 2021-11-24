@@ -146,4 +146,4 @@ def get_data() -> Response:
 
 if __name__ == "__main__":
     MakeMap()
-    serve(app, host='0.0.0.0', port=8080, threads=30)
+    serve(app, host='0.0.0.0', port=8089, threads=30)
