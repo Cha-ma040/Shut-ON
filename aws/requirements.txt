@@ -5,3 +5,4 @@ flask_limiter
 waitress
 folium
 GitPython
+beautifulsoup4
