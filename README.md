@@ -8,7 +8,7 @@
 また、この製品にはSpresenseのLTE拡張ボードが必要となります。
 
 ## ビルド
-1.SpresenseのArduinoプロジェクトがビルドできる状態にします(詳細はSonyのSPRESENSE公式ページをご覧ください)。
+1.SpresenseのArduinoプロジェクトがビルドできる状態にします(詳細は[SonyのSPRESENSE公式ページ](https://developer.sony.com/develop/spresense/docs/arduino_set_up_ja.html)をご覧ください)。
 
 2.ArudinoIDEでMAinフォルダにあるMain.inoを開いてください。
 
