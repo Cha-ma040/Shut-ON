@@ -76,4 +76,4 @@ cd aws/backend && python3 server.py # Run the server
 
 ### 未実装部分
 
-録音データと位置情報の送信(LTE拡張ボードがないため実装不可)
+クラウドとSpresense間の通信(LTE拡張ボードがないため実装不可)
