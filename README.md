@@ -60,7 +60,7 @@ cd aws/backend && python3 server.py # Run the server
 
 詳しくは以下の動画をご覧ください。
 
-[![movie1](https://user-images.githubusercontent.com/93237025/148518990-fd2f7766-0817-4d73-b0f5-9052ba7b677b.mp4)
+[![movie](./images/thumbnail.PNG)](https://user-images.githubusercontent.com/93237025/148518990-fd2f7766-0817-4d73-b0f5-9052ba7b677b.mp4)
 
 ## システムモデル
 
