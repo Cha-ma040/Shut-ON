@@ -66,7 +66,7 @@ cd aws/backend && python3 server.py # Run the server
 
 本製品のシステム構成図のイメージ図は以下の通りです。
 
-![system](./images/system_overview)
+![system](./images/system_overview.png)
 
 ## 実装部分・未実装部分
 
